@@ -1,0 +1,20 @@
+# Chaves e credenciais - NUNCA versionar
+*.pem
+*.key
+*.ppk
+.aws/
+credentials
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
